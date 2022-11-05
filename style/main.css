@@ -1,0 +1,105 @@
+p, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'LatoRegular', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    background: linear-gradient(45deg, rgb(23, 124, 86), rgb(19, 147, 151));
+    padding: 64px 16px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.title {
+    font-family: 'PatuaOne', sans-serif;
+    font-size: 4rem;
+    padding: 16px 0;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 2.8rem;
+    padding: 16px;
+}
+
+.articles {
+    width: 100%;
+    height: 100%;
+}
+
+.article {
+    padding: 32px 16px;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.article h1 {
+    font-size: 2.5rem;
+    padding-bottom: 24px;
+}
+
+.article p {
+    font-size: 1.8rem;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profile {}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.profile-info {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.profile-info span {
+    display: block;
+    padding: 8px 0;
+}
+
+.profile-phone {
+    font-style: italic;
+}
+
+.footer {
+    font-size: 1.1rem;
+    color: #404040;
+    border-top: 1px solid #ccc;
+    margin-top: 32px;
+    padding: 32px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 3.2rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .profiles {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .profile-picture {
+        margin: auto;
+    }
+}
